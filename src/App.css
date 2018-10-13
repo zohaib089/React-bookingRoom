@@ -1,32 +1,71 @@
-.App {
-  text-align: center;
-}
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #080606; }
+  .navbar .bwm-search {
+    height: 48px;
+    width: 300px !important; }
+  .navbar .navbar-brand {
+    margin-right: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #94db9a !important;
+    font-weight: 500px; }
+  .navbar .nav-item {
+    font-size: 16px; }
+  .navbar .btn-bwm-search {
+    border-color: #94db9a;
+    color: #94db9a; }
+    .navbar .btn-bwm-search:hover, .navbar .btn-bwm-search:focus, .navbar .btn-bwm-search:active {
+      background-color: transparent !important;
+      border-color: #94db9a !important;
+      color: #94db9a !important;
+      box-shadow: none; }
+  .navbar .nav-item {
+    color: #fff; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+a:hover, a:hover {
+  text-decoration: none; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.rental-detail-link:hover {
+  text-decoration: none; }
 
-.App-link {
-  color: #61dafb;
-}
+.bwm-card {
+  border: none;
+  margin-top: 20px; }
+  .bwm-card .card-block {
+    padding-top: 9px; }
+    .bwm-card .card-block .card-subtitle {
+      margin: 0;
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase; }
+    .bwm-card .card-block .card-title {
+      font-size: 18px;
+      margin: 3px 0;
+      color: grey; }
+    .bwm-card .card-block .card-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7e7e7e;
+      margin-bottom: 0; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+#rentalListing .title {
+  font-size: 28px;
+  font-weight: 650;
+  margin-bottom: 20px; }
+
+.page-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px !important;
+  text-align: center; }
+
+.aparment {
+  color: #c31927 !important; }
+
+.condo {
+  color: #3cb2c2 !important; }
+
+.home {
+  color: #dd962b !important; }

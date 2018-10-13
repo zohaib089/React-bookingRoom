@@ -1,0 +1,36 @@
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: $main-black;
+
+  .bwm-search {
+    height: 48px;
+    width: 300px !important;
+
+  }
+
+.navbar-brand {
+  margin-right: 30px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: $main-color !important;
+  font-weight: 500px;
+}
+.nav-item {
+  font-size: 16px;
+}
+.btn-bwm-search {
+  border-color: $main-color;
+  color: $main-color;
+&:hover, &:focus, &:active {
+ background-color: transparent !important;
+ border-color: $main-color !important;
+ color: $main-color !important;
+ box-shadow: none;
+}
+
+}
+.nav-item {
+  color: $main-white;
+}
+}
